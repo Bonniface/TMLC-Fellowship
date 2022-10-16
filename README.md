@@ -1,6 +1,5 @@
-# Text Classification
+# Text CLeaning And Classification
 
-## E-commerce Product Categorization
 
 **E-commerce** (electronic commerce) is the activity of electronically buying or selling of products on online services or over the [**Internet**](https://en.wikipedia.org/wiki/Internet). It frequently uses the [**web**](https://en.wikipedia.org/wiki/World_Wide_Web), if not entirely, for at least some of the life cycle of a transaction, while it may also use other technologies like [**e-mail**](https://en.wikipedia.org/wiki/Email). Typical e-commerce transactions include the purchase of products (like books from Amazon) or services (such as music downloads in the form of digital distribution such as the iTunes Store). [**Online retail**](https://en.wikipedia.org/wiki/Online_shopping), [**electronic markets**](https://en.wikipedia.org/wiki/Electronic_markets), and [**online auctions**](https://en.wikipedia.org/wiki/Online_auction) are the three areas of e-commerce. E-commerce is supported by [**electronic business**](https://en.wikipedia.org/wiki/Electronic_business). The purpose of e-commerce is to enable customers to shop and pay online over the Internet, saving both time and space for consumers and businesses while also significantly improving transaction efficiency.
 
@@ -68,9 +67,9 @@ clean("some input",
     lang="en"                       # set to 'de' for German special handling
 )
 ```
-##TF-IDF Modeling
+## TF-IDF Modeling
 
-- Loaded the normalized dataset obtained from **Part 1. EDA and Text Normalization**
+- Loaded the normalized dataset obtained from EDA and Text Normalization**
 
 - Used [**TF-IDF**](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) vectorizer on normalized descriptions for **text vectorization**
 
@@ -80,7 +79,7 @@ clean("some input",
 
 - Employed the model with the highest validation accuracy to predict the labels of the test observations and obtained a test accuracy of $0.957965$
 
-## Overview of Part 3. Word2Vec Modeling
+##  Word2Vec Modeling
 
 - Employed a few selected [**text normalization**](https://en.wikipedia.org/wiki/Text_normalization) processes, namely **convertion to lowercase** and **substitution of [contractions](https://en.wikipedia.org/wiki/Wikipedia:List_of_English_contractions)** on the raw data on product descriptions
 
