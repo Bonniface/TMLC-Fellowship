@@ -1,4 +1,4 @@
-# E-commerce Text Classification
+# Text Classification
 
 ## E-commerce Product Categorization
 
