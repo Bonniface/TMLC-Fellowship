@@ -1,0 +1,25 @@
+---
+author: "Boniface"
+
+---
+```{r Packages}
+Packages <- c(
+  'rtweet',
+  'httpuv',
+  'tidyverse',
+  'ggwordcloud',
+  'tidytext',
+  'reshape2',
+  'topicmodels',
+  
+)
+Check.Packages <- lapply(
+  Packages,
+  FUN = function(x){
+    if(!require(x ,character.only = TRUE)){
+      install.packages(x,dependencies = TRUE)
+    }
+  }
+)
+```
+
